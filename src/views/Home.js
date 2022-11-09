@@ -1,6 +1,8 @@
-import React,{Component} from 'react';
+import React, { Component } from 'react';
+import Nav from "../components/Nav";
 
-export class Home extends Component {
+
+export default class Home extends Component {
 
     render(){
         return(
