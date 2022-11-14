@@ -17,15 +17,16 @@ function App() {
     <Router>
       <Nav />
       <div>
-      
+      <UserAuthContextProvider>
       <Routes>
       
 
       <Route path="/" element={<Home />} />
       <Route path="/login" element={<Login />} />
       <Route path="/signup" element={<Signup />} />
-      <Route path="/todolist" element={<Todolist />} />
+      <Route path="/todos" element={<Todolist />} />
       </Routes>
+      </UserAuthContextProvider>
       </div>
     </Router>
   );
